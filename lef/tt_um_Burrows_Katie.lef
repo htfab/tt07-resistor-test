@@ -371,7 +371,7 @@ MACRO tt_um_Burrows_Katie
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 210.815 31.85 212.555 33.955 ;
+        RECT 210.765 42.82 212.65 45.305 ;
     END
   END VPWR
   PIN VGND
@@ -379,7 +379,7 @@ MACRO tt_um_Burrows_Katie
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 55.94 42.845 57.615 44.935 ;
+        RECT 56.07 53.05 57.7 55.51 ;
     END
   END VGND
   PROPERTY CatenaDesignType "chipAssembly" ;
