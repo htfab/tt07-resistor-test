@@ -365,13 +365,238 @@ VIARULE PTAP GENERATE
     RESISTANCE 600.000000 ;
 END PTAP
 
+VIA M1M2_0
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.085 0.055 0.085 0.055 ;
+  ROWCOL 1 1 ;
+END M1M2_0
+
+VIA M1M2_1
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.105 0.105 0.19 0.17 ;
+  ROWCOL 3 3 ;
+END M1M2_1
+
+VIA L1M1_2
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0 0 0.06 0.03 ;
+  ROWCOL 1 1 ;
+END L1M1_2
+
+VIA L1M1_3
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0.235 0.055 0.235 0.055 ;
+  ROWCOL 3 2 ;
+END L1M1_3
+
+VIA M2M3_4
+  VIARULE M2M3 ;
+  CUTSIZE 0.2 0.2 ;
+  LAYERS met2 via2 met3 ;
+  CUTSPACING 0.2 0.2 ;
+  ENCLOSURE 0.085 0.065 0.065 0.065 ;
+  ROWCOL 1 1 ;
+END M2M3_4
+
+VIA M2M3_5
+  VIARULE M2M3 ;
+  CUTSIZE 0.2 0.2 ;
+  LAYERS met2 via2 met3 ;
+  CUTSPACING 0.2 0.2 ;
+  ENCLOSURE 0.085 0.065 0.085 0.065 ;
+  ROWCOL 2 2 ;
+END M2M3_5
+
+VIA M1M2_6
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.085 0.055 0.085 0.055 ;
+  ROWCOL 3 3 ;
+END M1M2_6
+
+VIA L1M1_7
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0 0 0.235 0.205 ;
+  ROWCOL 2 1 ;
+END L1M1_7
+
+VIA L1M1_8
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0 0 0.06 0.03 ;
+  ROWCOL 2 2 ;
+END L1M1_8
+
+VIA M1M2_9
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.085 0.055 0.085 0.055 ;
+  ROWCOL 2 2 ;
+END M1M2_9
+
+VIA M1M2_10
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.085 0.055 0.15 0.13 ;
+  ROWCOL 2 2 ;
+END M1M2_10
+
+VIA M3M4_11
+  VIARULE M3M4 ;
+  CUTSIZE 0.2 0.2 ;
+  LAYERS met3 via3 met4 ;
+  CUTSPACING 0.2 0.2 ;
+  ENCLOSURE 0.09 0.06 0.065 0.065 ;
+  ROWCOL 1 1 ;
+END M3M4_11
+
+VIA M3M4_12
+  VIARULE M3M4 ;
+  CUTSIZE 0.2 0.2 ;
+  LAYERS met3 via3 met4 ;
+  CUTSPACING 0.2 0.2 ;
+  ENCLOSURE 0.09 0.06 0.065 0.065 ;
+  ROWCOL 2 2 ;
+END M3M4_12
+
+VIA PYL1_13
+  VIARULE PYL1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS poly licon li ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.08 0.05 0.08 0 ;
+  ROWCOL 1 1 ;
+END PYL1_13
+
+VIA PYL1_14
+  VIARULE PYL1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS poly licon li ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.08 0.05 0.08 0.05 ;
+  ROWCOL 1 1 ;
+END PYL1_14
+
+VIA L1M1_15
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0 0 0.06 0.03 ;
+  ROWCOL 4 4 ;
+END L1M1_15
+
+VIA M2M3_16
+  VIARULE M2M3 ;
+  CUTSIZE 0.2 0.2 ;
+  LAYERS met2 via2 met3 ;
+  CUTSPACING 0.2 0.2 ;
+  ENCLOSURE 0.085 0.065 0.085 0.065 ;
+  ROWCOL 3 3 ;
+END M2M3_16
+
+VIA M1M2_17
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.085 0.055 0.085 0.065 ;
+  ROWCOL 2 2 ;
+END M1M2_17
+
+VIA L1M1_18
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0 0 0.06 0.03 ;
+  ROWCOL 3 3 ;
+END L1M1_18
+
+VIA M1M2_19
+  VIARULE M1M2 ;
+  CUTSIZE 0.15 0.15 ;
+  LAYERS met1 via1 met2 ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.085 0.065 0.15 0.13 ;
+  ROWCOL 2 2 ;
+END M1M2_19
+
+VIA L1M1_20
+  VIARULE L1M1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS li mcon met1 ;
+  CUTSPACING 0.19 0.19 ;
+  ENCLOSURE 0.215 0.035 0.235 0.035 ;
+  ROWCOL 2 1 ;
+END L1M1_20
+
+VIA PYL1_21
+  VIARULE PYL1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS poly licon li ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.08 0.05 0.08 0.05 ;
+  ROWCOL 2 2 ;
+END PYL1_21
+
+VIA M3M4_22
+  VIARULE M3M4 ;
+  CUTSIZE 0.2 0.2 ;
+  LAYERS met3 via3 met4 ;
+  CUTSPACING 0.2 0.2 ;
+  ENCLOSURE 0.09 0.06 0.065 0.065 ;
+  ROWCOL 3 3 ;
+END M3M4_22
+
+VIA PYL1_23
+  VIARULE PYL1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS poly licon li ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.215 0.215 0.215 0.215 ;
+  ROWCOL 1 1 ;
+END PYL1_23
+
+VIA PYL1_24
+  VIARULE PYL1 ;
+  CUTSIZE 0.17 0.17 ;
+  LAYERS poly licon li ;
+  CUTSPACING 0.17 0.17 ;
+  ENCLOSURE 0.18 0.18 0.18 0.18 ;
+  ROWCOL 1 1 ;
+END PYL1_24
+
 MACRO tt_um_Burrows_Katie
   PIN VPWR
     DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 210.765 42.82 212.65 45.305 ;
+        RECT 256.605 70.055 258.49 72.54 ;
     END
   END VPWR
   PIN VGND
@@ -379,9 +604,537 @@ MACRO tt_um_Burrows_Katie
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 56.07 53.05 57.7 55.51 ;
+        RECT 101.915 53.05 103.545 55.51 ;
     END
   END VGND
+  PIN I1|clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 253.065 270.77 253.365 271.77 ;
+    END
+  END I1|clk
+  PIN I1|ena
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 256.745 270.77 257.045 271.77 ;
+    END
+  END I1|ena
+  PIN I1|rst_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 249.385 270.77 249.685 271.77 ;
+    END
+  END I1|rst_n
+  PIN I1|uio_oe\[3\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 116.905 270.77 117.205 271.77 ;
+    END
+  END I1|uio_oe\[3\]
+  PIN I1|uio_out\[5\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 138.985 270.77 139.285 271.77 ;
+    END
+  END I1|uio_out\[5\]
+  PIN I1|uo_out\[7\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 161.065 270.77 161.365 271.77 ;
+    END
+  END I1|uo_out\[7\]
+  PIN I1|ua\[4\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 166.435 46.01 167.035 47.01 ;
+    END
+  END I1|ua\[4\]
+  PIN I1|ua\[5\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 144.355 46.01 144.955 47.01 ;
+    END
+  END I1|ua\[5\]
+  PIN I1|ua\[6\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 122.275 46.01 122.875 47.01 ;
+    END
+  END I1|ua\[6\]
+  PIN I1|I2|VSS
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met1 ;
+        RECT 136.065 194.75 138.935 199.28 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 134.715 183.98 139.715 264.98 ;
+    END
+  END I1|I2|VSS
+  PIN I1|ui_in\[0\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 245.705 270.77 246.005 271.77 ;
+    END
+  END I1|ui_in\[0\]
+  PIN I1|ui_in\[1\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 242.025 270.77 242.325 271.77 ;
+    END
+  END I1|ui_in\[1\]
+  PIN I1|ui_in\[2\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 238.345 270.77 238.645 271.77 ;
+    END
+  END I1|ui_in\[2\]
+  PIN I1|ui_in\[3\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 234.665 270.77 234.965 271.77 ;
+    END
+  END I1|ui_in\[3\]
+  PIN I1|ui_in\[4\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 230.985 270.77 231.285 271.77 ;
+    END
+  END I1|ui_in\[4\]
+  PIN I1|ui_in\[5\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 227.305 270.77 227.605 271.77 ;
+    END
+  END I1|ui_in\[5\]
+  PIN I1|ui_in\[6\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 223.625 270.77 223.925 271.77 ;
+    END
+  END I1|ui_in\[6\]
+  PIN I1|ui_in\[7\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 219.945 270.77 220.245 271.77 ;
+    END
+  END I1|ui_in\[7\]
+  PIN I1|uio_in\[0\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 216.265 270.77 216.565 271.77 ;
+    END
+  END I1|uio_in\[0\]
+  PIN I1|uio_in\[1\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 212.585 270.77 212.885 271.77 ;
+    END
+  END I1|uio_in\[1\]
+  PIN I1|uio_in\[2\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 208.905 270.77 209.205 271.77 ;
+    END
+  END I1|uio_in\[2\]
+  PIN I1|uio_in\[3\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 205.225 270.77 205.525 271.77 ;
+    END
+  END I1|uio_in\[3\]
+  PIN I1|uio_in\[4\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 201.545 270.77 201.845 271.77 ;
+    END
+  END I1|uio_in\[4\]
+  PIN I1|uio_in\[5\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 197.865 270.77 198.165 271.77 ;
+    END
+  END I1|uio_in\[5\]
+  PIN I1|uio_in\[6\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 194.185 270.77 194.485 271.77 ;
+    END
+  END I1|uio_in\[6\]
+  PIN I1|uio_in\[7\]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 190.505 270.77 190.805 271.77 ;
+    END
+  END I1|uio_in\[7\]
+  PIN I1|uio_oe\[0\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 127.945 270.77 128.245 271.77 ;
+    END
+  END I1|uio_oe\[0\]
+  PIN I1|uio_oe\[1\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 124.265 270.77 124.565 271.77 ;
+    END
+  END I1|uio_oe\[1\]
+  PIN I1|uio_oe\[2\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 120.585 270.77 120.885 271.77 ;
+    END
+  END I1|uio_oe\[2\]
+  PIN I1|ua\[0\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 254.755 46.01 255.355 47.01 ;
+    END
+  END I1|ua\[0\]
+  PIN I1|uio_oe\[4\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 113.225 270.77 113.525 271.77 ;
+    END
+  END I1|uio_oe\[4\]
+  PIN I1|uio_oe\[5\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 109.545 270.77 109.845 271.77 ;
+    END
+  END I1|uio_oe\[5\]
+  PIN I1|uio_oe\[6\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 105.865 270.77 106.165 271.77 ;
+    END
+  END I1|uio_oe\[6\]
+  PIN I1|uio_oe\[7\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 102.185 270.77 102.485 271.77 ;
+    END
+  END I1|uio_oe\[7\]
+  PIN I1|uio_out\[0\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 157.385 270.77 157.685 271.77 ;
+    END
+  END I1|uio_out\[0\]
+  PIN I1|uio_out\[1\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 153.705 270.77 154.005 271.77 ;
+    END
+  END I1|uio_out\[1\]
+  PIN I1|uio_out\[2\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 150.025 270.77 150.325 271.77 ;
+    END
+  END I1|uio_out\[2\]
+  PIN I1|uio_out\[3\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 146.345 270.77 146.645 271.77 ;
+    END
+  END I1|uio_out\[3\]
+  PIN I1|uio_out\[4\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 142.665 270.77 142.965 271.77 ;
+    END
+  END I1|uio_out\[4\]
+  PIN I1|ua\[1\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 232.675 46.01 233.275 47.01 ;
+    END
+  END I1|ua\[1\]
+  PIN I1|uio_out\[6\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 135.305 270.77 135.605 271.77 ;
+    END
+  END I1|uio_out\[6\]
+  PIN I1|uio_out\[7\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 131.625 270.77 131.925 271.77 ;
+    END
+  END I1|uio_out\[7\]
+  PIN I1|uo_out\[0\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 186.825 270.77 187.125 271.77 ;
+    END
+  END I1|uo_out\[0\]
+  PIN I1|uo_out\[1\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 183.145 270.77 183.445 271.77 ;
+    END
+  END I1|uo_out\[1\]
+  PIN I1|uo_out\[2\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 179.465 270.77 179.765 271.77 ;
+    END
+  END I1|uo_out\[2\]
+  PIN I1|uo_out\[3\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 175.785 270.77 176.085 271.77 ;
+    END
+  END I1|uo_out\[3\]
+  PIN I1|uo_out\[4\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 172.105 270.77 172.405 271.77 ;
+    END
+  END I1|uo_out\[4\]
+  PIN I1|uo_out\[5\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 168.425 270.77 168.725 271.77 ;
+    END
+  END I1|uo_out\[5\]
+  PIN I1|uo_out\[6\]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 164.745 270.77 165.045 271.77 ;
+    END
+  END I1|uo_out\[6\]
+  PIN I1|ua\[2\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 210.595 46.01 211.195 47.01 ;
+    END
+  END I1|ua\[2\]
+  PIN I1|ua\[3\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 188.515 46.01 189.115 47.01 ;
+    END
+  END I1|ua\[3\]
+  PIN I1|ua\[7\]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 100.195 46.01 100.795 47.01 ;
+    END
+  END I1|ua\[7\]
+  PIN I1|I2|VDD
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met1 ;
+        RECT 217.46 203.505 221.535 207.355 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 217.335 183.98 221.715 264.98 ;
+    END
+  END I1|I2|VDD
+  PIN I1|I2|Vout
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 212 187.91 214.34 190.29 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 209.715 183.98 214.715 191.725 ;
+    END
+  END I1|I2|Vout
+  PIN I1|I2|V+
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 187.265 262.165 189.755 263.975 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 181.075 259.955 191.075 264.98 ;
+    END
+  END I1|I2|V+
+  PIN I1|I2|V-
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 154.2 260.885 156.385 263.525 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 153.335 259.98 163.335 264.98 ;
+    END
+  END I1|I2|V-
+  PIN I1|I1|VDD
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met1 ;
+        RECT 224.29 92.13 225.935 94.655 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 223.085 56.74 226.975 156.525 ;
+    END
+  END I1|I1|VDD
+  PIN I1|I1|Vss
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met1 ;
+        RECT 128.275 85.08 130.45 87.725 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 126.72 56.74 131.72 156.525 ;
+    END
+  END I1|I1|Vss
+  PIN I1|I1|Vout
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 185.15 58.15 187.03 60.62 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 184.355 56.745 194.355 61.745 ;
+    END
+  END I1|I1|Vout
+  PIN I1|I1|Vinp
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 173.915 57.93 176.43 60.93 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 167.39 56.74 177.39 61.74 ;
+    END
+  END I1|I1|Vinp
+  PIN I1|I1|Vinn
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 154.465 58.385 156.315 60.295 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 153.45 56.74 163.45 61.74 ;
+    END
+  END I1|I1|Vinn
   PROPERTY CatenaDesignType "chipAssembly" ;
 END tt_um_Burrows_Katie
 
