@@ -594,6 +594,10 @@ VIA PYL1_24
 END PYL1_24
 
 MACRO tt_um_Burrows_Katie
+  CLASS BLOCK ;
+  FOREIGN tt_um_analog_loopback ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 161.000 BY 225.760 ;
 
   PIN VPWR
     DIRECTION INOUT ;
