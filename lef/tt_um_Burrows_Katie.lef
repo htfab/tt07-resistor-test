@@ -6,7 +6,7 @@ MACRO tt_um_Burrows_Katie
   CLASS BLOCK ;
   FOREIGN tt_um_Burrows_Katie ;
   ORIGIN -54.365 -35.020 ;
-  SIZE 158.355 BY 225.760 ;
+  SIZE 161 BY 225.760 ;
   PIN VGND
     USE GROUND ;
     PORT
