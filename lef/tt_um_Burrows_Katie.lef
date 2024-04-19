@@ -384,7 +384,7 @@ MACRO tt_um_Burrows_Katie
   END VPWR
   PIN VGND
     DIRECTION INOUT ;
-    USE POWER ;
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT 3.770 79.340 5.140 81.480 ;
