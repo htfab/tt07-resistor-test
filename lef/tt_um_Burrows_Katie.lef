@@ -2,7 +2,7 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_Burrow_Katie
+MACRO tt_um_Burrows_Katie
   CLASS BLOCK ;
   FOREIGN tt_um_Burrow_Katie ;
   ORIGIN 0.000 0.000 ;
@@ -4121,6 +4121,6 @@ MACRO tt_um_Burrow_Katie
         RECT 157.310 0.460 157.400 0.470 ;
         RECT 158.355 0.265 158.360 109.335 ;
   END
-END tt_um_Burrow_Katie
+END tt_um_Burrows_Katie
 END LIBRARY
 
