@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_analog_example
+MACRO tt_um_Burrow_Katie
   CLASS BLOCK ;
-  FOREIGN tt_um_analog_example ;
+  FOREIGN tt_um_Burrow_Katie ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -367,7 +367,6 @@ MACRO tt_um_analog_example
     END
   END uo_out[7]
   PIN VPWR
-    DIRECTION INOUT ;
     USE POWER ;
     PORT
       LAYER met4 ;
@@ -375,7 +374,6 @@ MACRO tt_um_analog_example
     END
   END VPWR
   PIN VGND
-    DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
@@ -4123,6 +4121,6 @@ MACRO tt_um_analog_example
         RECT 157.310 0.460 157.400 0.470 ;
         RECT 158.355 0.265 158.360 109.335 ;
   END
-END tt_um_analog_example
+END tt_um_Burrow_Katie
 END LIBRARY
 
