@@ -7,9 +7,11 @@ project:
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
-  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  # How many tiles does your design occupy? A single tile is about 167x108 uM.
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
+  # How many analog pins does your project use?
+  analog_pins: 5        # Valid values: 0 to 6
+  
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
   top_module:  "tt_um_Burrows_Katie"
   
@@ -48,9 +50,8 @@ pinout:
   uio[5]: ""
   uio[6]: ""
   uio[7]: ""
-# How many analog pins does your project use?
-  analog_pins: 5        # Valid values: 0 to 6
-# Analog pins - you can add more if you use them, up to 8
+
+  # Analog pins - you can add more if you use them, up to 8
   ua[0]: "Vout"
   ua[1]: "Vinp"
   ua[2]: "Vinn"
