@@ -10,7 +10,7 @@ project:
   # How many tiles does your design occupy? A single tile is about 167x108 uM.
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
   # How many analog pins does your project use?
-  analog_pins: 4        # Valid values: 0 to 6
+  analog_pins: 5        # Valid values: 0 to 6
   
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
   top_module:  "tt_um_Burrows_Katie"
