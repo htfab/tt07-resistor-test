@@ -4,7 +4,7 @@ VERSION 5.7 ;
   BUSBITCHARS "[]" ;
 MACRO tt_um_Burrows_Katie
   CLASS BLOCK ;
-  FOREIGN tt_um_Burrow_Katie ;
+  FOREIGN tt_um_Burrows_Katie ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
