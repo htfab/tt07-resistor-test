@@ -57,6 +57,7 @@ pinout:
   ua[2]: "Vinn"
   ua[3]: "VoutM"
   ua[4]: "VinM"
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
